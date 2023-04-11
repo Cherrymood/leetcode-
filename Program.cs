@@ -10,7 +10,7 @@
         var answer2413 = solution2413.SmallestEvenMultiple(5);
         Console.WriteLine(answer2413);
 
-        var solution2235 =  new Solution2413();
+        var solution2235 =  new Solution2235();
         var answer2235 = solution2235.Sum(12,5);
         Console.WriteLine(answer2235);
 
