@@ -2,13 +2,13 @@
 { 
     static void Main(string[] args)
     { 
-        var solution1342 =  new Solution();
-        var answer = solution1342.NumberOfSteps(14);
-        var answer1 = solution1342.NumberOfSteps(8);
-        var answer2 = solution1342.NumberOfSteps(4);
-        Console.WriteLine(answer);
-        Console.WriteLine(answer1);
-        Console.WriteLine(answer2);
+        var solution1342 =  new Solution1342();
+        var answer1342 = solution1342.NumberOfSteps(14);
+        Console.WriteLine(answer1342);
+
+        var solution2413 =  new Solution2413();
+        var answer2413 = solution2413.SmallestEvenMultiple(5);
+        Console.WriteLine(answer2413);
 
     }
 }

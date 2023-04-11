@@ -1,4 +1,4 @@
-public class Solution {
+public class Solution1342 {
     public int NumberOfSteps(int num) {
 
         int answer = 0;              
@@ -17,6 +17,6 @@ public class Solution {
             }
         }
         return answer;
- 
+    
     }
 }
