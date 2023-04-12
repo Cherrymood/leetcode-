@@ -14,5 +14,10 @@
         var answer2235 = solution2235.Sum(12,5);
         Console.WriteLine(answer2235);
 
+        var solution1365 =  new Solution1365();
+        int[] nums = new int[] { 6, 5, 4, 8};
+        var answer1365 = solution1365.SmallerNumbersThanCurrent(nums);
+        Console.WriteLine(answer1365);
+
     }
 }
