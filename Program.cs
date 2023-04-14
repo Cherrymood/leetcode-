@@ -19,5 +19,12 @@
         var answer1365 = solution1365.SmallerNumbersThanCurrent(nums);
         Console.WriteLine(answer1365);
 
+        var solution1480 =  new Solution1480();
+        int[] numbers = new int[] { 6, 5, 4, 8};
+        var answer1480 = solution1480.RunningSum(numbers);
+        Console.WriteLine(answer1365);
+
+        
+
     }
 }
