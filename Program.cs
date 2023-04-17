@@ -24,6 +24,12 @@
         var answer1480 = solution1480.RunningSum(numbers);
         Console.WriteLine(answer1365);
 
+        var solution771 =  new Solution771();
+        string jewels = "aA";
+        string stones = "aAAbbbb";
+        var answer771 = solution771.NumJewelsInStones(jewels, stones);
+        Console.WriteLine(answer771);
+
         
 
     }
