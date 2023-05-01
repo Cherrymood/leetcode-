@@ -30,6 +30,11 @@
         var answer771 = solution771.NumJewelsInStones(jewels, stones);
         Console.WriteLine(answer771);
 
+        var solution509 =  new Solution509();
+        int n = 5;
+        var answer509 = solution509.Fib(n);
+        Console.WriteLine(answer509);
+
         
 
     }
