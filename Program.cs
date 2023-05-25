@@ -34,6 +34,12 @@
         int n = 5;
         var answer509 = solution509.Fib(n);
         Console.WriteLine(answer509);
+
+        var solution1689 = new Solution1689();
+        string m = "32";
+        var answer1689 = solution1689.MinPartitions(m);
+        Console.WriteLine(answer1689);
+
         
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
