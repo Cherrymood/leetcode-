@@ -34,6 +34,16 @@
         int n = 5;
         var answer509 = solution509.Fib(n);
         Console.WriteLine(answer509);
+        
+        /*
+        int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
+        var subrectangleQueries = new SubrectangleQueries(rectungle);
+        subrectangleQueries.UpdateSubrectangle(2, 3, 4, 5, 66);
+        subrectangleQueries.GetValue(0, 2);
+        */
+
+
+
 
         
 
