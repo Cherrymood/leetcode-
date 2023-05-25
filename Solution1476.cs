@@ -1,10 +1,10 @@
 public class SubrectangleQueries
 {
-    public int[][] Rectangle;
+    private int[][] _rectangle;
     
     public SubrectangleQueries(int[][] rectangle)
     {
-        Rectangle = rectangle;
+        _rectangle = rectangle;
     }
     
     public void UpdateSubrectangle(int row1, int col1, int row2, int col2, int newValue) 
@@ -13,13 +13,13 @@ public class SubrectangleQueries
         {
             for(int j = col1; j <= col2; j++) 
             {
-                Rectangle[i][j] = newValue;
+                _rectangle[i][j] = newValue;
             }
         }
     }
     
     public int GetValue(int row, int col) 
     {
-        return Rectangle[row][col];
+        return _rectangle[row][col];
     }
 }
