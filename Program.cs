@@ -45,6 +45,12 @@
         var answer2574 = solution2574.LeftRigthDifference(nums2574);
         Console.WriteLine(answer1689);
 
+        var solution1389 = new Solution1389();
+        int[] nums1389 = {0,1,2,3,4 };
+        int[] index1389 = {0,1,2,2,1};
+        var answer1389 = solution1389.CreateTargetArray(nums1389, index1389);
+        Console.WriteLine(answer1389);
+
         
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
