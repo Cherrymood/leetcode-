@@ -40,6 +40,11 @@
         var answer1689 = solution1689.MinPartitions(m);
         Console.WriteLine(answer1689);
 
+        var solution2574 = new Solution2574();
+        int[] nums2574 = {10,4,8,3};
+        var answer2574 = solution2574.LeftRigthDifference(nums2574);
+        Console.WriteLine(answer1689);
+
         
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
