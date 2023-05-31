@@ -51,6 +51,11 @@
         var answer1389 = solution1389.CreateTargetArray(nums1389, index1389);
         Console.WriteLine(answer1389);
 
+        var solution2652 = new Solution2652();
+        int num2652 = 10;
+        var answer2652 = solution2652.SumOfMultiples(num2652);
+        Console.WriteLine(answer2652);
+
         
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
