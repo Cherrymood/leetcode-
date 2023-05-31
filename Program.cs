@@ -56,6 +56,12 @@
         var answer2652 = solution2652.SumOfMultiples(num2652);
         Console.WriteLine(answer2652);
 
+        var solution1816 = new Solution1816();
+        var s1816 = "Hello how are you Contestant";
+        var k1816 = 3;
+        var answer1816 = solution1816.TruncateSentence(s1816, k1816);
+        Console.WriteLine(answer1816);
+
         
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
