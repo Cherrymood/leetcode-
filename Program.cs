@@ -62,6 +62,12 @@
         var answer1816 = solution1816.TruncateSentence(s1816, k1816);
         Console.WriteLine(answer1816);
 
+        var solution2656 = new Solution2656();
+        var nums2656 = new int[] {1,2,3,4,5};
+        var k2656 = 3;
+        var answer2656 = solution2656.MaximizeSum(nums2656, k2656);
+        Console.WriteLine(answer2656);
+
         
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
