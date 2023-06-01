@@ -68,6 +68,12 @@
         var answer2656 = solution2656.MaximizeSum(nums2656, k2656);
         Console.WriteLine(answer2656);
 
+        var solution2006 = new Solution2006();
+        var nums2006 = new int[] {1,2,2,1};
+        var k2006 = 1;
+        var answer2006 = solution2006.CountKDifference(nums2006, k2006);
+        Console.WriteLine(answer2006);
+
         
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
