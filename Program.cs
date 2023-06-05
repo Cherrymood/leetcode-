@@ -80,6 +80,11 @@
         var answer1684 = solution1684.CountConsistentStrings(allowed, words1684);
         Console.WriteLine(answer1684);
 
+        var solution1913 = new Solution1913();
+        var nums1913 = new int[] {5,6,2,7,4};
+        var answer1913 = solution1913.MaxProductDifference(nums);
+        Console.WriteLine(answer1913);
+
         
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
