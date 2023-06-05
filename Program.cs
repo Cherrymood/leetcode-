@@ -74,6 +74,12 @@
         var answer2006 = solution2006.CountKDifference(nums2006, k2006);
         Console.WriteLine(answer2006);
 
+        var solution1684 = new Solution1684();
+        var allowed = "ab";
+        var words1684 = new string[] {"ad","bd","aaab","baa","badab"};
+        var answer1684 = solution1684.CountConsistentStrings(allowed, words1684);
+        Console.WriteLine(answer1684);
+
         
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
