@@ -85,6 +85,11 @@
         var answer1913 = solution1913.MaxProductDifference(nums);
         Console.WriteLine(answer1913);
 
+        var solution1464 = new Solution1464();
+        var nums1464 = new int[] {5,6,2,7,4};
+        var answer1464 = solution1464.MaxProduct(nums1464);
+        Console.WriteLine(answer1464);
+
         
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
