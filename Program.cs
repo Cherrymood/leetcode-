@@ -90,6 +90,14 @@
         var answer1464 = solution1464.MaxProduct(nums1464);
         Console.WriteLine(answer1464);
 
+        var solution1534 = new Solution1534();
+        var nums1534 = new int[] {3,0,1,1,9,7};
+        var a1534 = 7;
+        var b1534 = 2;
+        var c1534 = 1;
+        var answer1534 = solution1534.CountGoodTriplets(nums1534, a1534, b1534, c1534);
+        Console.WriteLine(answer1534);
+
         
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
