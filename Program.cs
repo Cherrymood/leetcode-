@@ -98,6 +98,12 @@
         var answer1534 = solution1534.CountGoodTriplets(nums1534, a1534, b1534, c1534);
         Console.WriteLine(answer1534);
 
+        var solution2367 = new Solution2367();
+        var nums2367 = new int[] {0,1,4,6,7,10};
+        var diff2367 = 3;
+        var answer2367 = solution2367.ArithmeticTriplets(nums2367, diff2367);
+        Console.WriteLine(answer2367);
+
         
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
