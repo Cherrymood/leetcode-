@@ -104,6 +104,13 @@
         var answer2367 = solution2367.ArithmeticTriplets(nums2367, diff2367);
         Console.WriteLine(answer2367);
 
+        var solution2500 = new Solution2500();
+        var nums2500 = new int[2][]{
+                new int[3]{1, 2, 3},
+                new int[4]{4, 5, 6, 7}};
+        var answer2500 = solution2500.DeleteGreatestValue(nums2500);
+        Console.WriteLine(answer2500);
+
         
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
