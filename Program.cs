@@ -111,6 +111,15 @@
         var answer2500 = solution2500.DeleteGreatestValue(nums2500);
         Console.WriteLine(answer2500);
 
+        var solution2545 = new Solution2545();
+        var nums2545 = new int[3][]{
+                new int[4]{1, 2, 3, 4},
+                new int[4]{4, 5, 6, 6},
+                new int[4]{7, 9, 5, 0}};
+        var k2545 = 0;
+        var answer2545 = solution2545.SortTheStudents(nums2545, k2545);
+        Console.WriteLine(answer2545);
+
         
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
