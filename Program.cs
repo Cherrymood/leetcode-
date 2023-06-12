@@ -120,6 +120,14 @@
         var answer2545 = solution2545.SortTheStudents(nums2545, k2545);
         Console.WriteLine(answer2545);
 
+        var solution832 = new Solution832();
+        var nums832 = new int[3][]{
+                new int[3]{1, 1, 0},
+                new int[3]{0, 0, 1},
+                new int[3]{1, 1, 0}};
+        var answer832 = solution832.FlipAndInvertImage(nums832);
+        Console.WriteLine(answer832);
+
         
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
