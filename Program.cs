@@ -128,6 +128,13 @@
         var answer832 = solution832.FlipAndInvertImage(nums832);
         Console.WriteLine(answer832);
 
+        var solution1630 = new Solution1630();
+        var nums1630 = new int[] {4,6,5,9,3,7};
+        var l1630  = new int[] {0, 0, 2};
+        var r1630 = new int[]   {2, 3, 5};
+        var answer1630 = solution1630.CheckArithmeticSubarrays(nums1630, l1630, r1630);
+        Console.WriteLine(answer1630);
+
         
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
