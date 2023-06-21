@@ -135,6 +135,12 @@
         var answer1630 = solution1630.CheckArithmeticSubarrays(nums1630, l1630, r1630);
         Console.WriteLine(answer1630);
 
+        var solution1768 = new Solution1768();
+        var word1768 = "abcd";
+        var word21768  = "pq";
+        var answer1768 = solution1768.MergeAlternately(word1768, word21768);
+        Console.WriteLine(answer1768);
+
         
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
