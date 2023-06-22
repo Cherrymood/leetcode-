@@ -141,6 +141,17 @@
         var answer1768 = solution1768.MergeAlternately(word1768, word21768);
         Console.WriteLine(answer1768);
 
+        var solution605 = new Solution605();
+        var num605 = new int[] {1,0,0,0,0,1};
+        var n605  = 2;
+        var answer605 = solution605.CanPlaceFlowers(num605, n605);
+        Console.WriteLine(answer605);
+
+        var solution151 = new Solution151();
+        var s151 = "  Bob    Loves  Alice   ";
+        var answer151 = solution151.ReverseWords(s151);
+        Console.WriteLine(answer151);
+
         
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];

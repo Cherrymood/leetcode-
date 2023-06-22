@@ -3,19 +3,22 @@ public class Solution605 {
     {
             var count = 0;
 
-            for (int i = 0; i < flowerbed.Length-1; i ++)
+                for (int i = 0; i < flowerbed.Count(); i ++)
             {
 
-                if ((flowerbed[0] == 0 && flowerbed[1] == 0) || (flowerbed[ i -1] ==0 && flowerbed[i] == 0 && flowerbed[i-1] ==0) 
-                || (flowerbed[flowerbed.Length - 1] == 0 && flowerbed[flowerbed.Length -2] ==0))
+                if (flowerbed[i] ==0)
                 {
-                    flowerbed[i] = 1;
-                    count += 1;
+                    var emptyleft = (i == 0) || (flowerbed[i - 1] == 0);
+                    var emptyright = (i == flowerbed.Length -1) || (flowerbed[i + 1] == 0);
+                    if (emptyleft && emptyright)
+                    {
+                        flowerbed[i] = 1;
+                        count ++;
+                    } 
                 }
 
-            }            
-            
-
+            }              
+        
         return count >= n;
         
     }
