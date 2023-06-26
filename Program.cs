@@ -163,6 +163,12 @@
         var answer345 = solution345.ReverseVowels(s345);
         Console.WriteLine(answer345);
 
+        var solution398 = new Solution398();
+        var s398 = "abc";
+        var t398 = "ahbgdc";
+        var answer398 = solution398.IsSubsequence(s398, t398);
+        Console.WriteLine(answer398);
+
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
         var subrectangleQueries = new SubrectangleQueries(rectungle);
