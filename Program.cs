@@ -152,7 +152,17 @@
         var answer151 = solution151.ReverseWords(s151);
         Console.WriteLine(answer151);
 
-        
+        var solution1071 = new Solution1071();
+        var s11071 = "ABABAB" ;
+        var s21071 = "ABAB";
+        var answer1071 = solution1071.GcdOfStrings(s11071, s21071);
+        Console.WriteLine(answer1071);
+
+        var solution345 = new Solution345();
+        var s345 = "Hello" ;
+        var answer345 = solution345.ReverseVowels(s345);
+        Console.WriteLine(answer345);
+
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
         var subrectangleQueries = new SubrectangleQueries(rectungle);
