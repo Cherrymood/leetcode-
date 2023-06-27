@@ -169,6 +169,11 @@
         var answer398 = solution398.IsSubsequence(s398, t398);
         Console.WriteLine(answer398);
 
+        var solution238 = new Solution238();
+        var nums238 = new int[] {1,2,3,4};
+        var answer238= solution238.ProductExceptSelf(nums238);
+        Console.WriteLine(answer238);
+
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
         var subrectangleQueries = new SubrectangleQueries(rectungle);
