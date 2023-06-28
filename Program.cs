@@ -179,6 +179,16 @@
         var answer724= solution724.PivotIndex(nums724);
         Console.WriteLine(answer724);
 
+        var solution334 = new Solution334();
+        var nums334 = new int[] {2,1,5,0,6,7};
+        var answer334= solution334.IncreasingTriplet(nums334);
+        Console.WriteLine(answer334);
+
+        var solution2930 = new Solution2390();
+        var s2930 = "leet**cod*e";
+        var answer2930= solution2930.RemoveStars(s2930);
+        Console.WriteLine(answer2930);
+
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
         var subrectangleQueries = new SubrectangleQueries(rectungle);
