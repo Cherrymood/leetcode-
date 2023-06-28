@@ -174,6 +174,11 @@
         var answer238= solution238.ProductExceptSelf(nums238);
         Console.WriteLine(answer238);
 
+        var solution724 = new Solution724();
+        var nums724 = new int[] {1,7,3,6,5,6};
+        var answer724= solution724.PivotIndex(nums724);
+        Console.WriteLine(answer724);
+
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
         var subrectangleQueries = new SubrectangleQueries(rectungle);
