@@ -189,6 +189,12 @@
         var answer2930= solution2930.RemoveStars(s2930);
         Console.WriteLine(answer2930);
 
+        var solution2215 = new Solution2215();
+        var nums12215 = new int[] {1,7,3,6};
+        var nums22215 = new int[] {6,5,6};
+        var answer2215= solution2215.FindDifference(nums12215, nums22215);
+        Console.WriteLine(answer2215);
+
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
         var subrectangleQueries = new SubrectangleQueries(rectungle);
