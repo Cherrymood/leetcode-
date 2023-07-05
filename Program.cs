@@ -195,6 +195,18 @@
         var answer2215= solution2215.FindDifference(nums12215, nums22215);
         Console.WriteLine(answer2215);
 
+        var solution643 = new Solution643();
+        var nums643 = new int[] {1,12,-5,-6,50,3};
+        var k643 = 4;
+        var answer643= solution643.FindMaxAverage(nums643, k643);
+        Console.WriteLine(answer643);
+
+        var solution1456 = new Solution1456();
+        var s1456 = "abciiidef";
+        var k1456 = 3;
+        var answer1456= solution1456.MaxVowels(s1456, k1456);
+        Console.WriteLine(answer1456);
+
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
         var subrectangleQueries = new SubrectangleQueries(rectungle);
