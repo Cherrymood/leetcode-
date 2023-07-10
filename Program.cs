@@ -207,6 +207,11 @@
         var answer1456= solution1456.MaxVowels(s1456, k1456);
         Console.WriteLine(answer1456);
 
+        var solution1732 = new Solution1732();
+        var gain1732 = new int[] {1,12,-5,-6,50,3};
+        var answer1732= solution1732.LargestAltitude(gain1732);
+        Console.WriteLine(answer1732);
+
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
         var subrectangleQueries = new SubrectangleQueries(rectungle);
