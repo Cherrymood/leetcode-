@@ -208,9 +208,14 @@
         Console.WriteLine(answer1456);
 
         var solution1732 = new Solution1732();
-        var gain1732 = new int[] {1,12,-5,-6,50,3};
+        var gain1732 = new int[] {1,7,3,6};
         var answer1732= solution1732.LargestAltitude(gain1732);
         Console.WriteLine(answer1732);
+
+        var solution443 = new Solution443();
+        var chars443 = new char[] {'a','a','b','b','c','c','c'};
+        var answer443= solution443.Compress(chars443);
+        Console.WriteLine(answer443);
 
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
