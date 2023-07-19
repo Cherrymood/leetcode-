@@ -217,6 +217,12 @@
         var answer443= solution443.Compress(chars443);
         Console.WriteLine(answer443);
 
+        var solution219 = new Solution219();
+        var nums219 = new int[] {1,2,3,1,2,3};
+        var k219 = 2;
+        var answer219= solution219.ContainsNearbyDuplicate(nums219, k219);
+        Console.WriteLine(answer219);
+
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
         var subrectangleQueries = new SubrectangleQueries(rectungle);
