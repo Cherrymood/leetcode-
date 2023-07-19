@@ -223,6 +223,12 @@
         var answer219= solution219.ContainsNearbyDuplicate(nums219, k219);
         Console.WriteLine(answer219);
 
+        var solution2269 = new Solution2269();
+        var num2269 = 430043;
+        var k2269 = 2;
+        var answer2269 = solution2269.DivisorSubstrings(num2269, k2269);
+        Console.WriteLine(answer2269);
+
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
         var subrectangleQueries = new SubrectangleQueries(rectungle);
