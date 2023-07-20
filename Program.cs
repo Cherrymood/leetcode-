@@ -229,6 +229,11 @@
         var answer2269 = solution2269.DivisorSubstrings(num2269, k2269);
         Console.WriteLine(answer2269);
 
+        var solution1876 = new Solution1876();
+        var s1876 = "xyzzaz";
+        var answer1876 = solution1876.CountGoodSubstrings(s1876);
+        Console.WriteLine(answer1876);
+
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
         var subrectangleQueries = new SubrectangleQueries(rectungle);
