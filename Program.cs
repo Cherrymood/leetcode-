@@ -234,6 +234,12 @@
         var answer1876 = solution1876.CountGoodSubstrings(s1876);
         Console.WriteLine(answer1876);
 
+        var solution2760 = new Solution2760();
+        var nums2760 = new int[] {2,7};
+        var threshold = 9;
+        var answer2760 = solution2760.LongestAlternatingSubarray(nums2760, threshold);
+        Console.WriteLine(answer2760);
+
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
         var subrectangleQueries = new SubrectangleQueries(rectungle);
