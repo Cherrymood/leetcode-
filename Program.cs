@@ -236,9 +236,16 @@
 
         var solution2760 = new Solution2760();
         var nums2760 = new int[] {2,7};
-        var threshold = 9;
-        var answer2760 = solution2760.LongestAlternatingSubarray(nums2760, threshold);
+        var threshold2760 = 9;
+        var answer2760 = solution2760.LongestAlternatingSubarray(nums2760, threshold2760);
         Console.WriteLine(answer2760);
+
+        var solution1343 = new Solution1343();
+        var nums1343 = new int[] {2,2,2,2,5,5,5,8};
+        var threshold1343 = 4;
+        var k1343 = 3;
+        var answer1343 = solution1343.NumOfSubarrays(nums1343, k1343, threshold1343);
+        Console.WriteLine(answer1343);
 
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
