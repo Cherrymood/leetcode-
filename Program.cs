@@ -247,6 +247,12 @@
         var answer1343 = solution1343.NumOfSubarrays(nums1343, k1343, threshold1343);
         Console.WriteLine(answer1343);
 
+        var solution2024 = new Solution2024();
+        var answerKey2024 = "TFFT";
+        var k2024 = 1;
+        var answer2024 = solution2024.MaxConsecutiveAnswers(answerKey2024, k2024);
+        Console.WriteLine(answer2024);
+
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
         var subrectangleQueries = new SubrectangleQueries(rectungle);
