@@ -253,6 +253,11 @@
         var answer2024 = solution2024.MaxConsecutiveAnswers(answerKey2024, k2024);
         Console.WriteLine(answer2024);
 
+        var solution1493 = new Solution1493();
+        var nums1493 = new int[] {1,1,0,1};
+        var answer1493 = solution1493.LongestSubarray(nums1493);
+        Console.WriteLine(answer1493);
+
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
         var subrectangleQueries = new SubrectangleQueries(rectungle);
