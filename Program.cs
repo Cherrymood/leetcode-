@@ -263,11 +263,10 @@
         var answer1358 = solution1358.NumberOfSubstrings(s1358);
         Console.WriteLine(answer1358);
 
-        var solution1004 = new Solution1004();
-        var nums1004 = new int[] {1,1,1,0,0,0,1,1,1,1,0};
-        var k1004 = 2;
-        var answer1004 = solution1004.LongestOnes(nums1004, k1004);
-        Console.WriteLine(answer1004);
+        var solution3 = new Solution3 ();
+        var s3 = "abcabcbb";
+        var answer3 = solution3.LengthOfLongestSubstring(s3);
+        Console.WriteLine(answer3);
 
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
