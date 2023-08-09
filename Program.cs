@@ -268,6 +268,11 @@
         var answer3 = solution3.LengthOfLongestSubstring(s3);
         Console.WriteLine(answer3);
 
+        var solution413 = new Solution413 ();
+        var nums413 = new int[] {1,2,3,4};
+        var answer413 = solution413.NumberOfArithmeticSlices(nums413);
+        Console.WriteLine(answer413);
+
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
         var subrectangleQueries = new SubrectangleQueries(rectungle);
