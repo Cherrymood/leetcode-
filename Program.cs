@@ -280,6 +280,11 @@
         var answer1052 = solution1052.MaxSatisfied(customers1052, grumpy1052, minutes1052);
         Console.WriteLine(answer1052);
 
+        var solution11 = new Solution11 ();
+        var nums11 = new int[] {1,8,6,2,5,4,8,3,7};
+        var answer11 = solution11.MaxArea(nums11);
+        Console.WriteLine(answer11);
+
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
         var subrectangleQueries = new SubrectangleQueries(rectungle);
