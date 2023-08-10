@@ -273,6 +273,13 @@
         var answer413 = solution413.NumberOfArithmeticSlices(nums413);
         Console.WriteLine(answer413);
 
+        var solution1052 = new Solution1052 ();
+        var customers1052 = new int[] {1,0,1,2,1,1,7,5};
+        var grumpy1052 = new int[] {0,1,0,1,0,1,0,1};
+        var minutes1052 = 3;
+        var answer1052 = solution1052.MaxSatisfied(customers1052, grumpy1052, minutes1052);
+        Console.WriteLine(answer1052);
+
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
         var subrectangleQueries = new SubrectangleQueries(rectungle);
