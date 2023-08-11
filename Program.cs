@@ -285,6 +285,17 @@
         var answer11 = solution11.MaxArea(nums11);
         Console.WriteLine(answer11);
 
+        var solution1679 = new Solution1679 ();
+        var nums1679 = new int[] {1,2,3,4};
+        var k1679 = 5;
+        var answer1679 = solution1679.MaxOperations(nums1679, k1679);
+        Console.WriteLine(answer1679);
+
+        var solution1207 = new Solution1207 ();
+        var nums1207 = new int[] {1,2,2,1,1,3};
+        var answer1207 = solution1207.UniqueOccurrences(nums1207);
+        Console.WriteLine(answer1207);
+
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
         var subrectangleQueries = new SubrectangleQueries(rectungle);
