@@ -291,10 +291,11 @@
         var answer1679 = solution1679.MaxOperations(nums1679, k1679);
         Console.WriteLine(answer1679);
 
-        var solution1207 = new Solution1207 ();
-        var nums1207 = new int[] {1,2,2,1,1,3};
-        var answer1207 = solution1207.UniqueOccurrences(nums1207);
-        Console.WriteLine(answer1207);
+        var solution1004 = new Solution1004 ();
+        var nums1004 = new int[] {0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1};
+        var k1004 = 3;
+        var answer1004 = solution1004.LongestOnes(nums1004, k1004);
+        Console.WriteLine(answer1004);
 
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
