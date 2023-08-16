@@ -297,6 +297,11 @@
         var answer1004 = solution1004.LongestOnes(nums1004, k1004);
         Console.WriteLine(answer1004);
 
+        var solution1207 = new Solution1207 ();
+        var arr1207 = new int[] {1,2,2,1,1,3};
+        var answer1207 = solution1207.UniqueOccurrences(arr1207);
+        Console.WriteLine(answer1207);
+
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
         var subrectangleQueries = new SubrectangleQueries(rectungle);
