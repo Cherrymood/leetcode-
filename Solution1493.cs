@@ -64,7 +64,7 @@ public class Solution1493 {
                 
             }
         }
-        if (!nums.Contains(1))
+        if (maxCount == 0)
         {
             return 0;
         }
