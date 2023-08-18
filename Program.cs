@@ -303,10 +303,26 @@
         Console.WriteLine(answer1207);
 
         var solution1657 = new Solution1657 ();
-        var word11657 = "aaabbbbccddeeeeefffff";
-        var word21657 = "aaaaabbcccdddeeeeffff";
+        var word11657 = "cabbba";
+        var word21657 = "abbccc";
         var answer1657 = solution1657.CloseStrings(word11657, word21657);
         Console.WriteLine(answer1657);
+
+        var solution2352 = new Solution2352 ();
+        var grid2352 = new int[][] {
+                new int[10]{3, 3, 3, 6, 18, 3, 3, 3, 3, 3},
+                new int[10]{3,3,3,3,1,3,3,3,3,3},
+                new int[10]{3,3,3,3,1,3,3,3,3,3},
+                new int[10]{3,3,3,3,1,3,3,3,3,3},
+                new int[10]{1,1,1,11,19,1,1,1,1,1},
+                new int[10]{3,3,3,18,19,3,3,3,3,3},
+                new int[10]{3,3,3,3,1,3,3,3,3,3},
+                new int[10]{3,3,3,3,1,3,3,3,3,3},
+                new int[10]{3,3,3,1,6,3,3,3,3,3},
+                new int[10]{3,3,3,3,1,3,3,3,3,3}
+                };
+        var answer2352 = solution2352.EqualPairs(grid2352);
+        Console.WriteLine(answer2352);
 
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
