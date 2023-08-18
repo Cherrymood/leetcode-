@@ -302,6 +302,12 @@
         var answer1207 = solution1207.UniqueOccurrences(arr1207);
         Console.WriteLine(answer1207);
 
+        var solution1657 = new Solution1657 ();
+        var word11657 = "aaabbbbccddeeeeefffff";
+        var word21657 = "aaaaabbcccdddeeeeffff";
+        var answer1657 = solution1657.CloseStrings(word11657, word21657);
+        Console.WriteLine(answer1657);
+
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
         var subrectangleQueries = new SubrectangleQueries(rectungle);
