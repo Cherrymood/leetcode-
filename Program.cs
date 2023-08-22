@@ -324,6 +324,11 @@
         var answer2352 = solution2352.EqualPairs(grid2352);
         Console.WriteLine(answer2352);
 
+        var solution735 = new Solution735 ();
+        var arr735 = new int[] {-2,-1,1,2};
+        var answer735 = solution735.AsteroidCollision(arr735);
+        Console.WriteLine(answer735);
+
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
         var subrectangleQueries = new SubrectangleQueries(rectungle);
