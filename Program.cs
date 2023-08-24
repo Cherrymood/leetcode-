@@ -329,6 +329,17 @@
         var answer735 = solution735.AsteroidCollision(arr735);
         Console.WriteLine(answer735);
 
+        var solution402 = new Solution402 ();
+        var num402 = "1432219";
+        var k402 = 3;
+        var answer402 = solution402.RemoveKdigits(num402, k402);
+        Console.WriteLine(answer402);
+
+        var solution921 = new Solution921 ();
+        var s921 = "))())";
+        var answer921 = solution921.MinAddToMakeValid(s921);
+        Console.WriteLine(answer921);
+
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
         var subrectangleQueries = new SubrectangleQueries(rectungle);

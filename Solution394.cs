@@ -39,7 +39,7 @@ public class Solution402 {
             answer += v;
         }
 
-        answer.TrimStart("0");
+        answer.TrimStart('0');
         if (answer.Length < 0)
         { 
             return "0";
