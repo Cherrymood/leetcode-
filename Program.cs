@@ -340,6 +340,12 @@
         var answer921 = solution921.MinAddToMakeValid(s921);
         Console.WriteLine(answer921);
 
+        var solution1441 = new Solution1441 ();
+        var target1441 = new int[] {1, 3};
+        var n1441 = 3;
+        var answer1441 = solution1441.BuildArray(target1441, n1441);
+        Console.WriteLine(answer1441);
+
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
         var subrectangleQueries = new SubrectangleQueries(rectungle);
