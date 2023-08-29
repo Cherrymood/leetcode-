@@ -346,6 +346,16 @@
         var answer1441 = solution1441.BuildArray(target1441, n1441);
         Console.WriteLine(answer1441);
 
+        var solution1249 = new Solution1249 ();
+        var s1249 = "())()(((";
+        var answer1249 = solution1249.MinRemoveToMakeValid(s1249);
+        Console.WriteLine(answer1249);
+
+        var solution7 = new Solution7 ();
+        var x7 = -12340;
+        var answer7 = solution7.Reverse(x7);
+        Console.WriteLine(answer7);
+
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
         var subrectangleQueries = new SubrectangleQueries(rectungle);
