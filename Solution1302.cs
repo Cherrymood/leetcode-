@@ -1,8 +1,8 @@
-public class TreeNode {
+public class Node {
     public int val;
-    public TreeNode left;
-    public TreeNode right;
-    public TreeNode(int val=0, TreeNode left= null, TreeNode right= null) {
+    public Node left;
+    public Node right;
+    public Node(int val) {
         this.val = val;
         this.left = left;
         this.right = right;     }
@@ -12,7 +12,7 @@ public class Solution {
     int sum = 0;
     int maxDept = 0;
 
-    public int FindDepth(TreeNode current, int level)
+    public int FindDepth(Node current, int level)
     {
         int maxDept = level;
 
@@ -30,7 +30,7 @@ public class Solution {
 
     }
 
-    public void FindLeaf(TreeNode root, int level)
+    public void FindLeaf(Node root, int level)
     {
         if (root == null)
         {
@@ -46,7 +46,7 @@ public class Solution {
         FindLeaf(root.right, level +1);
 
     }
-    public int DeepestLeavesSum(TreeNode root) 
+    public int DeepestLeavesSum(Node root) 
     {
         maxDept = FindDepth(root, 0);
         FindLeaf(root, 0);

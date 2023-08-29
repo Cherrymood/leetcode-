@@ -1,15 +1,15 @@
-public class TreeNode104 {
+public class Tree104 {
     public int val;
-    public TreeNode left;
-    public TreeNode right;
-    public TreeNode104(int val=0, TreeNode left= null, TreeNode right= null) {
+    public Tree104 left;
+    public Tree104 right;
+    public Tree104(int val) {
         this.val = val;
         this.left = left;
         this.right = right;     }
 }
 
 public class Solution104 {
-    public int MaxDepth(TreeNode root) {
+    public int MaxDepth(Tree104 root) {
 
         if (root == null)
         {

@@ -356,6 +356,18 @@
         var answer7 = solution7.Reverse(x7);
         Console.WriteLine(answer7);
 
+        var solution1379 = new Solution1379 ();
+        var original1379 = new TreeNode();
+        var cloned1379 = new TreeNode();
+        var target1379 = new TreeNode();
+        var arr1379 = new int[] {7,4,3,0,0,6,19};
+        var target13791 = new int[] {3};
+        original1379.insertLevelOrder(arr1379, 0);
+        cloned1379.insertLevelOrder(arr1379, 0);
+        target1379.insertLevelOrder(target13791, 0);
+        var answer1379 = solution1379.GetTargetCopy(1379);
+        Console.WriteLine(answer1379);
+
         /*
         int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
         var subrectangleQueries = new SubrectangleQueries(rectungle);
