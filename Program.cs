@@ -361,6 +361,13 @@
         var answer121 = solution121.MaxProfit(arr121);
         Console.WriteLine(answer121);
 
+        var solution74 = new Solution74();
+        var arr74 = new int[][] {
+                new int[1]{1}};
+        var target74 = 1;
+        var answer74 = solution74.SearchMatrix(arr74, target74);
+        Console.WriteLine(answer74);
+
 
 
         /*var solution1379 = new Solution1379 ();
