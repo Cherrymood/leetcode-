@@ -1,26 +1,25 @@
-/*
-// Definition for a Node.
-public class Node {
+
+public class Node1 {
     public int val;
-    public IList<Node> children;
+    public IList<Node1> children;
 
-    public Node() {}
+    public Node1() {}
 
-    public Node(int _val) {
+    public Node1(int _val) {
         val = _val;
     }
 
-    public Node(int _val, IList<Node> _children) {
+    public Node1(int _val, IList<Node1> children) {
         val = _val;
-        children = _children;
+        children = children;
     }
 }
-*/
-public class Solution {
+
+public class Solution590 {
 
     IList<int> list = new List<int>();
 
-    public IList<int> Postorder(Node root) {
+    public IList<int> Postorder(Node1 root) {
         
         if (root == null) return list;
 

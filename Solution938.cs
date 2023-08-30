@@ -9,9 +9,9 @@ public class Solution938 {
             return sum;
         }
         
-        if (root.val >= low && root.val <= high)
+        if (root.data >= low && root.data <= high)
         {
-            sum += root.val;
+            sum += root.data;
 
         }
 

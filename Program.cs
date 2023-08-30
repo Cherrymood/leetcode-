@@ -356,7 +356,12 @@
         var answer7 = solution7.Reverse(x7);
         Console.WriteLine(answer7);
 
-        
+        var solution121 = new Solution121();
+        var arr121 = new int[] {7,1,5,3,6,4};
+        var answer121 = solution121.MaxProfit(arr121);
+        Console.WriteLine(answer121);
+
+
 
         /*var solution1379 = new Solution1379 ();
         var original1379 = new TreeNode();
