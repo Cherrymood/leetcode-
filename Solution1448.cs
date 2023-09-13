@@ -4,7 +4,7 @@ public class Solution1448 {
 
     public int GoodNodes(TreeNode root) {
         
-        dfs(root, root.val);
+        dfs(root, root.data);
 
         return answer;
     }
@@ -15,9 +15,9 @@ public class Solution1448 {
             return;
         }
 
-        if (node.val >= maxVal)
+        if (node.data >= maxVal)
             {
-                maxVal = node.val;
+                maxVal = node.data;
                 answer++;
             }
         dfs(node.left, maxVal);

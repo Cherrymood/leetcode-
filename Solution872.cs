@@ -18,7 +18,7 @@ public class Solution872 {
 
         if (node.left == null && node.right == null)
             {
-                leafValues.Add(node.val);
+                leafValues.Add(node.data);
             }
         dfs(node.left, leafValues);
         dfs(node.right, leafValues);

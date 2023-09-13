@@ -374,6 +374,16 @@
         var answer215 = solution215.FindKthLargest(nums215, k215);
         Console.WriteLine(answer215);
 
+        var solution746 = new Solution746();
+        var arr746 = new int[] {1,100,1,1,1,100,1,1,100,1};
+        var answer746 = solution746.MinCostClimbingStairs(arr746);
+        Console.WriteLine(answer746);
+
+        var solution26 = new Solution26();
+        var arr26 = new int[] {0,0,1,1,1,2,2,3,3,4};
+        var answer26 = solution26.RemoveDuplicates(arr26);
+        Console.WriteLine(answer26);
+
 
 
         /*var solution1379 = new Solution1379 ();
