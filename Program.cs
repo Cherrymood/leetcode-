@@ -390,6 +390,12 @@
         var answer27 = solution27.RemoveElement(arr27, val27);
         Console.WriteLine(answer27);
 
+        var solution35 = new Solution35();
+        var arr35 = new int[] {1,3,5,6};
+        var target35 = 5;
+        var answer35 = solution35.SearchInsert(arr35, target35);
+        Console.WriteLine(answer35);
+
 
 
 
