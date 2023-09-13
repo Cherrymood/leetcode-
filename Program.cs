@@ -384,6 +384,13 @@
         var answer26 = solution26.RemoveDuplicates(arr26);
         Console.WriteLine(answer26);
 
+        var solution27 = new Solution27();
+        var arr27 = new int[] {3,2,2,3};
+        var val27 = 3;
+        var answer27 = solution27.RemoveElement(arr27, val27);
+        Console.WriteLine(answer27);
+
+
 
 
         /*var solution1379 = new Solution1379 ();
