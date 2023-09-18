@@ -16,8 +16,8 @@ public class Solution104 {
             return 0;
         }
 
-        var leftmax = this.MaxDepth(root.left);
-        var rightmax = this.MaxDepth(root.right);
+        var leftmax = MaxDepth(root.left);
+        var rightmax = MaxDepth(root.right);
 
         return 1+ Math.Max(leftmax, rightmax);
         
