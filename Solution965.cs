@@ -9,9 +9,9 @@ public class Solution965 {
             return true;
         }
 
-        if (!list.Contains(root.val))
+        if (!list.Contains(root.data))
         {
-            list.Add(root.val);
+            list.Add(root.data);
         }
 
         if (list.Count > 1)

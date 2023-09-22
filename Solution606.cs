@@ -1,3 +1,6 @@
+using System;
+using System.Text;
+
 public class Solution606 {
     public string Tree2str(TreeNode root) {
         
@@ -14,7 +17,7 @@ public class Solution606 {
         if (root != null)
         {
             sB.Append("(");
-            sB.Append(root.val);
+            sB.Append(root.data);
 
             if (root.right != null && root.left == null)
             {

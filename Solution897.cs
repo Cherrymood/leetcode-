@@ -7,7 +7,7 @@ public class Solution897 {
         }
 
         inOrder(root.left, values);
-        values.Add(root.val);
+        values.Add(root.data);
         inOrder(root.right, values);
     }
     public TreeNode IncreasingBST(TreeNode root) {

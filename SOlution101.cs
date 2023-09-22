@@ -7,7 +7,7 @@ public class Solution101 {
             return root1==root2;
         }
 
-        return (root1.val == root2.val) && dfs(root1.left, root2.right) 
+        return (root1.data == root2.data) && dfs(root1.left, root2.right) 
                 && dfs(root2.left, root1.right);
 
     }

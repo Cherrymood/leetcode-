@@ -1,7 +1,7 @@
 public class Solution226 {
 
-    public void InOrderVals (TreeNode root, List<int> values)
-    {
+    public TreeNode InvertTree(TreeNode root) {
+        
         if (root == null)
         {
             return root;
