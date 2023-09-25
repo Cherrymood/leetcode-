@@ -401,6 +401,11 @@
         var answer9 = solution9.IsPalindrome(x9);
         Console.WriteLine(answer9);
 
+        var solution13 = new Solution13();
+        var x13 = "LVIII";
+        var answer13 = solution13.RomanToInt(x13);
+        Console.WriteLine(answer13);
+
         /*var solution733 = new Solution733();
         var arr733 = new int[][] {
                 new int[3]{1,1,1},
