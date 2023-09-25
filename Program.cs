@@ -406,6 +406,11 @@
         var answer13 = solution13.RomanToInt(x13);
         Console.WriteLine(answer13);
 
+        var solution14 = new Solution14();
+        var str14 = new string[] {"flower","flow","flight"};
+        var answer14 = solution14.LongestCommonPrefix(str14);
+        Console.WriteLine(answer14);
+
         /*var solution733 = new Solution733();
         var arr733 = new int[][] {
                 new int[3]{1,1,1},
