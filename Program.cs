@@ -396,6 +396,11 @@
         var answer35 = solution35.SearchInsert(arr35, target35);
         Console.WriteLine(answer35);
 
+        var solution9 = new Solution9();
+        var x9 = -121;
+        var answer9 = solution9.IsPalindrome(x9);
+        Console.WriteLine(answer9);
+
         /*var solution733 = new Solution733();
         var arr733 = new int[][] {
                 new int[3]{1,1,1},
