@@ -416,6 +416,12 @@
         var answer20 = solution20.IsValid(str20);
         Console.WriteLine(answer20);
 
+        var solution28 = new Solution28();
+        var str28 = "sadbutsad";
+        var str128 = "sad";
+        var answer28 = solution28.StrStr(str28, str128);
+        Console.WriteLine(answer28);
+
         /*var solution733 = new Solution733();
         var arr733 = new int[][] {
                 new int[3]{1,1,1},
