@@ -411,6 +411,11 @@
         var answer14 = solution14.LongestCommonPrefix(str14);
         Console.WriteLine(answer14);
 
+        var solution20 = new Solution20();
+        var str20 = "[()]{}";
+        var answer20 = solution20.IsValid(str20);
+        Console.WriteLine(answer20);
+
         /*var solution733 = new Solution733();
         var arr733 = new int[][] {
                 new int[3]{1,1,1},
