@@ -422,6 +422,11 @@
         var answer28 = solution28.StrStr(str28, str128);
         Console.WriteLine(answer28);
 
+        var solution118 = new Solution118();
+        var rows118 = 5;
+        var answer118 = solution118.Generate(rows118);
+        Console.WriteLine(answer188);
+
         /*var solution733 = new Solution733();
         var arr733 = new int[][] {
                 new int[3]{1,1,1},
