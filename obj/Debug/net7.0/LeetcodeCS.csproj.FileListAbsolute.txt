@@ -1,0 +1,15 @@
+/Users/valeriia/PycharmProjects/LeetcodeCS/obj/Debug/net7.0/LeetcodeCS.csproj.AssemblyReference.cache
+/Users/valeriia/PycharmProjects/LeetcodeCS/obj/Debug/net7.0/LeetcodeCS.GeneratedMSBuildEditorConfig.editorconfig
+/Users/valeriia/PycharmProjects/LeetcodeCS/obj/Debug/net7.0/LeetcodeCS.AssemblyInfoInputs.cache
+/Users/valeriia/PycharmProjects/LeetcodeCS/obj/Debug/net7.0/LeetcodeCS.AssemblyInfo.cs
+/Users/valeriia/PycharmProjects/LeetcodeCS/obj/Debug/net7.0/LeetcodeCS.csproj.CoreCompileInputs.cache
+/Users/valeriia/PycharmProjects/LeetcodeCS/bin/Debug/net7.0/LeetcodeCS
+/Users/valeriia/PycharmProjects/LeetcodeCS/bin/Debug/net7.0/LeetcodeCS.deps.json
+/Users/valeriia/PycharmProjects/LeetcodeCS/bin/Debug/net7.0/LeetcodeCS.runtimeconfig.json
+/Users/valeriia/PycharmProjects/LeetcodeCS/bin/Debug/net7.0/LeetcodeCS.dll
+/Users/valeriia/PycharmProjects/LeetcodeCS/bin/Debug/net7.0/LeetcodeCS.pdb
+/Users/valeriia/PycharmProjects/LeetcodeCS/obj/Debug/net7.0/LeetcodeCS.dll
+/Users/valeriia/PycharmProjects/LeetcodeCS/obj/Debug/net7.0/refint/LeetcodeCS.dll
+/Users/valeriia/PycharmProjects/LeetcodeCS/obj/Debug/net7.0/LeetcodeCS.pdb
+/Users/valeriia/PycharmProjects/LeetcodeCS/obj/Debug/net7.0/LeetcodeCS.genruntimeconfig.cache
+/Users/valeriia/PycharmProjects/LeetcodeCS/obj/Debug/net7.0/ref/LeetcodeCS.dll

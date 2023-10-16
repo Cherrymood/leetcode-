@@ -422,10 +422,10 @@
         var answer28 = solution28.StrStr(str28, str128);
         Console.WriteLine(answer28);
 
-        var solution118 = new Solution118();
-        var rows118 = 5;
-        var answer118 = solution118.Generate(rows118);
-        Console.WriteLine(answer188);
+        var solution929 = new Solution929();
+        var email929 = new string[] {"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"};
+        var answer929 = solution929.NumUniqueEmails(email929);
+        Console.WriteLine(answer929);
 
         /*var solution733 = new Solution733();
         var arr733 = new int[][] {
