@@ -432,5 +432,11 @@
         var target2824 = 2;
         var answer2824 = solution2824.CountPairs(arr2824, target2824);
         Console.WriteLine(answer2824);
+
+        var solution2828 = new Solution2828();
+        var arr2828 = new int[] {"alice","bob","charlie"};
+        var s2828 = "abc";
+        var answer2828 = solution2828.IsAcronym(arr2828, s2828);
+        Console.WriteLine(answer2828);
     }
 }
