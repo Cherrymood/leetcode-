@@ -426,46 +426,5 @@
         var email929 = new string[] {"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"};
         var answer929 = solution929.NumUniqueEmails(email929);
         Console.WriteLine(answer929);
-
-        /*var solution733 = new Solution733();
-        var arr733 = new int[][] {
-                new int[3]{1,1,1},
-                new int[3]{1,1,0},
-                new int[3]{1,0,1},
-                };
-        var sr = 1;
-        var sc = 1;
-        var color = 2;
-        var answer733 = solution733.FloodFill(arr733,sr,sc,color);
-        Console.WriteLine(answer733);
-
-
-
-
-
-        /*var solution1379 = new Solution1379 ();
-        var original1379 = new TreeNode();
-        var cloned1379 = new TreeNode();
-        var target1379 = new TreeNode();
-        var arr1379 = new int[] {7,4,3,0,0,6,19};
-        var target13791 = new int[] {3};
-        original1379.insertLevelOrder(arr1379, 0);
-        cloned1379.insertLevelOrder(arr1379, 0);
-        target1379.insertLevelOrder(target13791, 0);
-        var answer1379 = solution1379.GetTargetCopy(1379);
-        Console.WriteLine(answer1379);
-
-        /*
-        int[][] rectungle = [1,2,1] [4,3,4] [3,2,1] [1,1,1];
-        var subrectangleQueries = new SubrectangleQueries(rectungle);
-        subrectangleQueries.UpdateSubrectangle(2, 3, 4, 5, 66);
-        subrectangleQueries.GetValue(0, 2);
-        */
-
-
-
-
-        
-
     }
 }

@@ -1,14 +1,55 @@
 public class Solution2574 {
     public int[] LeftRigthDifference(int[] nums) {
 
-            int len = nums.Length;
-            int[] res = new int[len];
+        if (nums.Length == 0)
+        {
+            return  new int[]{0};
+        }
+        
+        var answer = new int[nums.Length];
 
-            for (int j = 0; j < len; j++)
-            {   
+        var leftSum = new int[nums.Length];
+        var rightSum = new int[nums.Length];
 
-                res[j] = Math.Abs(nums.Take(j).Sum() - nums.Skip(j + 1).Sum());
+        var sumLeft = 0;
+
+        for (int i = 0; i < nums.Length; i++)
+        {
+            if (i == 0)
+            {
+                leftSum[i] = 0;
             }
-            return res;
+
+            else
+            {
+                sumLeft += nums[i - 1];
+                leftSum[i] = sumLeft;
+            }
+        }
+
+        var sumRight = nums.Sum();
+
+        for (int k = 0; k < nums.Length; k++)
+        {
+            if (k == nums.Length - 1)
+            {
+                rightSum[k] = 0;
+            }
+
+            else
+            {
+                sumRight -= nums[k];
+                rightSum[k] = sumRight;
+            }
+        }
+
+        for (int j = 0; j < nums.Length; j++)
+        {
+            answer[j] = Math.Abs(leftSum[j] - rightSum[j]);
+        }
+
+        return answer;
+
+
     }
 }
