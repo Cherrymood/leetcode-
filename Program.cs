@@ -426,5 +426,11 @@
         var email929 = new string[] {"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"};
         var answer929 = solution929.NumUniqueEmails(email929);
         Console.WriteLine(answer929);
+
+        var solution2824 = new Solution2824();
+        var arr2824 = new int[] {-1,1,2,3,1};
+        var target2824 = 2;
+        var answer2824 = solution2824.CountPairs(arr2824, target2824);
+        Console.WriteLine(answer2824);
     }
 }
