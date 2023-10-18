@@ -468,5 +468,10 @@
         var arr2108 = new string[] {"abc","car","ada","racecar","cool"};
         var answer2108 = solution2108.FirstPalindrome(arr2108);
         Console.WriteLine(answer2108);
+
+        var solution2778 = new Solution2778();
+        var arr2778 = new int[] {1,2,3,4};
+        var answer2778 = solution2778.SumOfSquares(arr2778);
+        Console.WriteLine(answer2778);
     }
 }
