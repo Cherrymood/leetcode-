@@ -448,5 +448,11 @@
         var arr2744 = new string[] {"cd","ac","dc","ca","zz"};
         var answer2744 = solution2744.MaximumNumberOfStringPairs(arr2744);
         Console.WriteLine(answer2744);
+
+        var solution2176 = new Solution2176();
+        var arr2176 = new int[] {3,1,2,2,2,1,3};
+        var k2176 = 2;
+        var answer2176 = solution2176.MaximumNumberOfStringPairs(arr2176, k2176);
+        Console.WriteLine(answer2176);
     }
 }
