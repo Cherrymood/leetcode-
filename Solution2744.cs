@@ -12,7 +12,7 @@ public class Solution2744 {
         
         for (int i = 0; i < words.Length; i++)
         {
-            for (int k = i + 1; k < words.Length; k++ )
+            for (int k = i+1; k < words.Length; k++ )
             {
                 if (words[i] == Reverse(words[k]))
                 {
