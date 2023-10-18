@@ -473,5 +473,10 @@
         var arr2778 = new int[] {1,2,3,4};
         var answer2778 = solution2778.SumOfSquares(arr2778);
         Console.WriteLine(answer2778);
+
+        var solution1827 = new Solution1827();
+        var arr1827 = new int[] {1,5,2,4,1};
+        var answer1827 = solution1827.MinOperations(arr1827);
+        Console.WriteLine(answer1827);
     }
 }
