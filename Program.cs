@@ -478,5 +478,15 @@
         var arr1827 = new int[] {1,5,2,4,1};
         var answer1827 = solution1827.MinOperations(arr1827);
         Console.WriteLine(answer1827);
+
+        var solution1725 = new Solution1725();
+        var arr1725 = new int[][] {
+                new int[2]{5,8},
+                new int[2]{3,9},
+                new int[2]{5,12},
+                new int[2]{16,5}
+                };
+        var answer1725 = solution1725.CountGoodRectangles(arr1725);
+        Console.WriteLine(answer1725);
     }
 }
