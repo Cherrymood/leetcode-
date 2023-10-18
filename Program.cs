@@ -452,7 +452,21 @@
         var solution2176 = new Solution2176();
         var arr2176 = new int[] {3,1,2,2,2,1,3};
         var k2176 = 2;
-        var answer2176 = solution2176.MaximumNumberOfStringPairs(arr2176, k2176);
+        var answer2176 = solution2176.CountPairs(arr2176, k2176);
         Console.WriteLine(answer2176);
+
+        var solution1266 = new Solution1266();
+        var arr1266 = new int[][] {
+                new int[2]{1,1},
+                new int[2]{3,4},
+                new int[2]{-1,0},
+                };
+        var answer1266 = solution1266.MinTimeToVisitAllPoints(arr1266);
+        Console.WriteLine(answer1266);
+
+        var solution2108 = new Solution2108();
+        var arr2108 = new string[] {"abc","car","ada","racecar","cool"};
+        var answer2108 = solution2108.FirstPalindrome(arr2108);
+        Console.WriteLine(answer2108);
     }
 }
