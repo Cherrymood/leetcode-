@@ -434,9 +434,14 @@
         Console.WriteLine(answer2824);
 
         var solution2828 = new Solution2828();
-        var arr2828 = new int[] {"alice","bob","charlie"};
+        var arr2828 = new string[] {"alice","bob","charlie"};
         var s2828 = "abc";
         var answer2828 = solution2828.IsAcronym(arr2828, s2828);
         Console.WriteLine(answer2828);
+
+        var solution804 = new Solution804();
+        var arr804 = new string[] {"rwjje","aittjje","auyyn","lqtktn","lmjwn"};
+        var answer804 = solution804.UniqueMorseRepresentations(arr804);
+        Console.WriteLine(answer804);
     }
 }

@@ -16,7 +16,7 @@ public class Solution804 {
             dictAlpha[alphaKey[i]] = morseValue[i];
         }
 
-        var dictWords = new Dictionary<string,int>();
+        var lookUp = new Dictionary<string, int>();
 
         foreach (var w in words)
         {
@@ -27,19 +27,17 @@ public class Solution804 {
                 word += dictAlpha[letter];
             }
 
-            if (!dictWords.ContainsKey(word))
+            if (!lookUp.ContainsKey(word))
             {
-                dictWords[word] = 1;
+                lookUp[word] = 1;
             }
             else
             {
-                dictWords[word]++;
+                lookUp[word]++;
             }
         }
 
-        var answer = dictWords.Values.Max();
-
-        return answer;
+        return lookUp.Count();
             
         
     }
