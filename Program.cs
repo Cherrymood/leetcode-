@@ -443,5 +443,10 @@
         var arr804 = new string[] {"rwjje","aittjje","auyyn","lqtktn","lmjwn"};
         var answer804 = solution804.UniqueMorseRepresentations(arr804);
         Console.WriteLine(answer804);
+
+        var solution2744 = new Solution2744();
+        var arr2744 = new string[] {"cd","ac","dc","ca","zz"};
+        var answer2744 = solution2744.MaximumNumberOfStringPairs(arr2744);
+        Console.WriteLine(answer2744);
     }
 }
