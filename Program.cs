@@ -488,5 +488,10 @@
                 };
         var answer1725 = solution1725.CountGoodRectangles(arr1725);
         Console.WriteLine(answer1725);
+
+        var solution2553 = new Solution2553();
+        var arr2553 = new int[] {1000,897,1000,60,23};
+        var answer2553 = solution2553.SeparateDigits(arr2553);
+        Console.WriteLine(answer2553);
     }
 }
