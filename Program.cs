@@ -493,5 +493,10 @@
         var arr2553 = new int[] {1000,897,1000,60,23};
         var answer2553 = solution2553.SeparateDigits(arr2553);
         Console.WriteLine(answer2553);
+        
+        var solution942 = new Solution942();
+        var s942 = "IDID";
+        var answer942 = solution942.DiStringMatch(s942);
+        Console.WriteLine(answer942);
     }
 }
