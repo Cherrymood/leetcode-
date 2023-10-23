@@ -498,5 +498,10 @@
         var s942 = "IDID";
         var answer942 = solution942.DiStringMatch(s942);
         Console.WriteLine(answer942);
+
+        var solution561 = new Solution561();
+        var nums561 = new int[] {1,4,3,2};
+        var answer561 = solution561.ArrayPairSum(nums561);
+        Console.WriteLine(answer561);
     }
 }

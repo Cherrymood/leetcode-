@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/valeriia/PycharmProjects/LeetcodeCS/LeetcodeCS.csproj",
+      "projectUniqueName": "/Users/valeriia/MyProjects/LeetcodeCS/LeetcodeCS.csproj",
       "projectName": "LeetcodeCS",
-      "projectPath": "/Users/valeriia/PycharmProjects/LeetcodeCS/LeetcodeCS.csproj",
+      "projectPath": "/Users/valeriia/MyProjects/LeetcodeCS/LeetcodeCS.csproj",
       "packagesPath": "/Users/valeriia/.nuget/packages/",
-      "outputPath": "/Users/valeriia/PycharmProjects/LeetcodeCS/obj/",
+      "outputPath": "/Users/valeriia/MyProjects/LeetcodeCS/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/valeriia/.nuget/NuGet/NuGet.Config"
