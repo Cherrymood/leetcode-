@@ -509,5 +509,20 @@
         var pref2185 = "at";
         var answer2185 = solution2185.PrefixCount(s2185, pref2185);
         Console.WriteLine(answer2185);
+
+        var solution1979 = new Solution1979();
+        var nums1979 = new int[] {1,4,3,2};
+        var answer1979 = solution1979.FindGCD(nums1979);
+        Console.WriteLine(answer1979);
+
+        var solution1351 = new Solution1351();
+        var nums1351 = new int[][] {
+                new int[4]{4,3,2,-1},
+                new int[4]{3,2,1,-1},
+                new int[4]{1,1,-1,-2},
+                new int[4]{-1,-1,-2,-3}
+                };
+        var answer1351 = solution1351.CountNegatives(nums1351);
+        Console.WriteLine(answer1351);
     }
 }
