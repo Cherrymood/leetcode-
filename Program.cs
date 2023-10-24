@@ -503,5 +503,11 @@
         var nums561 = new int[] {1,4,3,2};
         var answer561 = solution561.ArrayPairSum(nums561);
         Console.WriteLine(answer561);
+
+        var solution2185 = new Solution2185();
+        var s2185 = new string[] {"pay","attention","practice","attend"};
+        var pref2185 = "at";
+        var answer2185 = solution2185.PrefixCount(s2185, pref2185);
+        Console.WriteLine(answer2185);
     }
 }
