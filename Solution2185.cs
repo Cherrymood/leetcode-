@@ -2,22 +2,31 @@ public class Solution2185 {
     public int PrefixCount(string[] words, string pref) {
         
         int answer = 0;
-        bool flag = false;
 
-        for (int i = 0; i < words.Length; i++)
+        foreach (var word in words)
         {
+            bool flag = false;
+
             for (int k = 0; k < pref.Length; k++)
             {
-                if (words[i][k] != pref[k])
+
+                if(pref.Length > word.Length)
                 {
-                    flag = true;
+                    continue;
+                }
+
+                if (word[k] != pref[k])
+                {
                     break;
                 }
 
-                if (flag == false)
-                {
-                    answer++;
-                }
+                flag = k == pref.Length-1;
+            }
+
+            if (flag)
+               
+            {
+                answer++;
             }
         }
         return answer;
