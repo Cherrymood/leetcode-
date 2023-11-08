@@ -524,5 +524,31 @@
                 };
         var answer1351 = solution1351.CountNegatives(nums1351);
         Console.WriteLine(answer1351);
+
+        var solution1295 = new Solution1295();
+        var nums1295 = new int[] {12,345,2,6,7896};
+        var answer1295 = solution1295.FindNumbers(nums1295);
+        Console.WriteLine(answer1295);
+
+        var solution1475 = new Solution1475();
+        var nums1475 = new int[] {8,4,6,2,3};
+        var answer1475 = solution1475.FinalPrices(nums1475);
+        Console.WriteLine(answer1475);
+
+        var solution2733 = new Solution2733();
+        var nums2733 = new int[] {3,2,1,4};
+        var answer2733 = solution2733.FindNonMinOrMax(nums2733);
+        Console.WriteLine(answer2733);
+
+        var solution125 = new Solution125();
+        var nums125 = "A man, a plan, a canal: Panama";
+        var answer125 = solution125.IsPalindrome(nums125);
+        Console.WriteLine(answer125);
+
+        var solution1 = new Solution1();
+        var nums1 = new int[] {2,7,11,15};
+        var target1 = 9;
+        var answer1 = solution1.TwoSum(nums1, target1);
+        Console.WriteLine(answer1);
     }
 }
