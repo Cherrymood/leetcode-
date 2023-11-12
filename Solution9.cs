@@ -1,17 +1,21 @@
 public class Solution9 {
     public bool IsPalindrome(int x) {
         
-        var str = x.ToString();
-
-        for (int i = 0; i < str.Length/2; i++)
+        if (x < 0)
         {
-            if (str[i] != str[str.Length -1 - i])
-            {
-                return false;
-            }
+            return false;
         }
 
-        return true;
+        int a = 0;
+        int b = x;
 
+        while (b > 0)
+        {
+            a = a*10 + b % 10;
+            b /= 10;
+        }
+
+        return a == x;
+        
     }
 }

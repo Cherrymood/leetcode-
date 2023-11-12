@@ -550,5 +550,10 @@
         var target1 = 9;
         var answer1 = solution1.TwoSum(nums1, target1);
         Console.WriteLine(answer1);
+
+        var solution5 = new Solution5();
+        var s9 = "babad";
+        var answer9 = solution9.LongestPalindrome(s9);
+        Console.WriteLine(answer9);
     }
 }
