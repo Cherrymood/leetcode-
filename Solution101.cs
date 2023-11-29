@@ -1,21 +1,26 @@
 public class Solution101 {
-    public bool isMirror(TreeNode left, TreeNode right)
+    bool ans = true;
+    public int Path(TreeNode root)
     {
-        if(left == null && right == null)
+        if (root == null)
         {
-            return true;
+            return 0;
         }
 
-        if(left == null || right == null)
+        int left = Path(root.left);
+        int right = Path(root.right);
+        if (Math.Abs(left-right) > 1)
         {
-            return false;
+            ans = false;
         }
-
-        return (left.val == right.val) && isMirror(left.left, right.right) && isMirror(left.right, right.left);
-        
+        return Math.Max(left, right) + 1;
     }
-    public bool IsSymmetric(TreeNode root) {
-        
-        return isMirror(root.left, root.right);
+
+    public bool IsBalanced(TreeNode root) {
+         
+        Path(root);
+
+        return ans;
+
     }
 }
